@@ -1,0 +1,81 @@
+p {
+    font-size: 10px;
+    padding-left: 40px;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    background-color: transparent;
+    border-style: solid;
+    font-size: 20px;
+    margin-left: 25px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border-color: gold;
+    color: aliceblue;
+}
+
+label {
+    display: flex;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-bottom: 3px;
+    color: white;
+    padding-top: -10px;
+}
+
+h2 {
+    margin-left: 500px;
+    color: white;
+
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: changeColor 5s infinite alternate;
+}
+
+@keyframes changeColor {
+    0% {
+        color: #ff0000;
+
+    }
+
+    50% {
+        color: yellow;
+
+    }
+
+    100% {
+        color: white;
+    }
+
+}
+
+h1 {
+    color: aqua;
+    justify-content: center;
+    padding-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.loginpage {
+    margin-left: 500px;
+    width: 300px;
+    height: 330px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 60px;
+    margin-top: -20px;
+}
+
+button {
+    margin-left: 25px;
+    justify-content: center;
+    width: 250px;
+}
